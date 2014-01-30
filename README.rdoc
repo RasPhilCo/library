@@ -1,0 +1,32 @@
+== README
+
+WDI LA 3/4 Library app lab
+
+Requirements:
+
+1. Time to show what you know about making Rails apps without scaffold. Keep the beers (you'll use them for the relationships lesson), but now we're headed for the bookstore.
+
+2. Single model app for now. You need to decide the types that are most appropriate, and generate the model. Go ahead and make a matching controller.
+
+Each book entry should have:
+- A title
+- An author
+- A publication year
+- An ISBN
+- A genre
+
+3. Set up some seed data (before you build out your New and Create actions), and get Index going first. We want to make sure that we can't duplicate seeds, so make sure to have those validations in place!
+
+Seed books:
+
+- The Hitchhiker's Guide To The Galaxy / Douglas Adams / 1979 / 0-330-25864-8 / Science Fiction
+- Green Eggs And Ham / Dr. Seuss / 1960 / 978-0-394-80016-5 / Children's
+- Agile Development With Rails 4 / Sam Ruby / 2013 / 978-1-93778-556-7 / Computer Programming
+
+4. Let's crack open that controller. Start by defining your Index action and filling in a view that iterates through all of your books and shows only the title and author fields for each book -- how it's structured is up to you (tables, list items, stories in divs, etc), but you need to be able to display at least those 3 books.
+
+5. I'm bored with those books. They're great, but, you know. Let's make New and Create actions (and a New view with a form) so we can build out our shelves. Add two more books of your choosing, and make sure that your form includes inputs for every field.
+
+6. I want to take a peek at a single book, and see all of the fields (not just title and author like in Index). Make me a Show action and corresponding view.
+
+7. I want to change Agile Development With Rails 4, and update the title to include the words "2nd Edition" and the year to 2014. Figure out how to apply what you know about the New/Create pairing of GET/POST actions and also what you learned about accessing specific books with Show to define the Edit/Update pairing of actions. Instructors are here to help, but you should try researching and coding these on your own!
