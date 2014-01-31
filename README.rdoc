@@ -1,6 +1,4 @@
-== README
-
-WDI LA 3/4 Library app lab
+== WDI LA 3/4 Library app lab
 
 Requirements:
 
@@ -8,20 +6,20 @@ Requirements:
 
 2. Single model app for now. You need to decide the types that are most appropriate, and generate the model. Go ahead and make a matching controller.
 
-Each book entry should have:
-- A title
-- An author
-- A publication year
-- An ISBN
-- A genre
+	Each book entry should have:
+	- A title
+	- An author
+	- A publication year
+	- An ISBN
+	- A genre
 
 3. Set up some seed data (before you build out your New and Create actions), and get Index going first. We want to make sure that we can't duplicate seeds, so make sure to have those validations in place!
 
-Seed books:
+	Seed books:
 
-- The Hitchhiker's Guide To The Galaxy / Douglas Adams / 1979 / 0-330-25864-8 / Science Fiction
-- Green Eggs And Ham / Dr. Seuss / 1960 / 978-0-394-80016-5 / Children's
-- Agile Development With Rails 4 / Sam Ruby / 2013 / 978-1-93778-556-7 / Computer Programming
+	- The Hitchhiker's Guide To The Galaxy / Douglas Adams / 1979 / 0-330-25864-8 / Science Fiction
+	- Green Eggs And Ham / Dr. Seuss / 1960 / 978-0-394-80016-5 / Children's
+	- Agile Development With Rails 4 / Sam Ruby / 2013 / 978-1-93778-556-7 / Computer Programming
 
 4. Let's crack open that controller. Start by defining your Index action and filling in a view that iterates through all of your books and shows only the title and author fields for each book -- how it's structured is up to you (tables, list items, stories in divs, etc), but you need to be able to display at least those 3 books.
 
